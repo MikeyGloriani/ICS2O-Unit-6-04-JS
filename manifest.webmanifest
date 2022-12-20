@@ -1,9 +1,9 @@
 {
-    "name": "Template App Test",
-    "short_name": "Mikey's Test App",
+    "name": "Mikey's App for Query Strings",
+    "short_name": "Query Strings",
     "description": "Github Page for my template app",
-    "scope": "/ICS2O-Template-PWA/",
-    "start_url": "/ICS2O-Template-PWA/",
+    "scope": "/ICS2O-Unit-6-04-JS/",
+    "start_url": "/ICS2O-Unit-6-04-JS/",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "display": "standalone", 
