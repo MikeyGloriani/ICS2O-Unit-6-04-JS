@@ -22,10 +22,11 @@ window.onload = function () {
   // input
   const radius = params.get("r")
 
-// process
-const sphereVolume = (4 / 3) * Math.PI * radius ** 3
+  // process
+  const sphereVolume = (4 / 3) * Math.PI * radius ** 3
 
-//output
-document.getElementById('radius').innerHTML = radius + ' cm'
-document.getElementById('volume').innerHTML = 'The Volume is ' + sphereVolume + ' cm³'
+  //output
+  document.getElementById("radius").innerHTML = radius + " cm"
+  document.getElementById("volume").innerHTML =
+    "The Volume is " + sphereVolume + " cm³"
 }
