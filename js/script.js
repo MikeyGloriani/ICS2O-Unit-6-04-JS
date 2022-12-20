@@ -13,15 +13,15 @@ if (navigator.serviceWorker) {
   })
 }
 
-window.onload = function() {
-/**
- * This calculates the volume of a sphere
- */
-const params = new URLSearchParams(document.location.search)
+window.onload = function () {
+  /**
+   * This calculates the volume of a sphere
+   */
+  const params = new URLSearchParams(document.location.search)
 
-// input 
-const radius = params.get('r')
+  // input
+  const radius = params.get("r")
 
-// process
-const sphereVolume = (4 / 3) * Math.PI * radius ** 3
+  // process
+  const sphereVolume = (4 / 3) * Math.PI * radius ** 3
 }
